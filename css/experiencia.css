@@ -73,6 +73,11 @@
   align-content: start;
 }
 
+.experiencia-link-site {
+  color: #141414;
+  max-width: fit-content;
+}
+
 .empresa-habilidade li {
   font-size: 0.875rem;
   line-height: 1.4;
