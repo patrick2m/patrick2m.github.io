@@ -1,5 +1,15 @@
-/* ----- Scrollbar ----- */
+.pt-br {
+  display: none !important;
+}
 
+.en-us {
+  display: none !important;
+}
+
+.ativo {
+  display: block !important;
+}
+/* ----- Scrollbar ----- */
 ::-webkit-scrollbar {
   width: 15px;
 }

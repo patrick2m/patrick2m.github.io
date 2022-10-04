@@ -19,98 +19,141 @@
     <nav data-menu="suave">
       <ul class="header-menu">
         <li>
-          <a href="#experiencia">Experiência</a>
+          <a href="#experiencia" class="pt-br">Experiência</a>
+          <a href="#experiencia" class="en-us">Experience</a>
         </li>
         <li>
-          <a href="#formacao">Formação</a>
+          <a href="#formacao" class="pt-br">Formação</a>
+          <a href="#formacao" class="en-us">Degree</a>
         </li>
         <li>
-          <a href="#contato">Contato</a>
+          <a href="#contato" class="pt-br">Contato</a>
+          <a href="#contato" class="en-us">Contact</a>
         </li>
+
       </ul>
     </nav>
+
+    <ul class="header-menu-language">
+      <a href="#" Id="portugues"><img  src="./img/ptbr.jpg" width="40" height="20" alt="Português"></a>
+      <a href="#" id="english"><img src="./img/en-us.jpg" width="40" heisght="20" alt="English"></a>
+    </ul>
   </header>
 
   <main class="introducao">
     <img src="./img/perfil_char.jpg" alt="Patrick Machado" width="360px" height="520px" />
     <div>
-      <h1>
+      <h1 class="pt-br">
         Desenvolvedor<br />Front End<br />
       </h1>
-      <p>HTML5, CSS3, Javascript ES6+, TypeScript, ReactJs, ReactNative, NodeJs, Tailwind, GIT e Docker</p>
+      <h1 class="en-us">
+        FrontEnd<br />Developer<br />
+      </h1>
+      <p class="pt-br">HTML5, CSS3, Javascript ES6+, TypeScript, ReactJs, ReactNative, NodeJs, Tailwind, GIT e Docker</p>
+      <p class="en-us">HTML5, CSS3, ES6+ Javascript, TypeScript, ReactJs, ReactNative, NodeJs, Tailwind, GIT and Docker</p>
     </div>
   </main>
 
   <section class="experiencia" id="experiencia" aria-label="Experiência">
-    <h2 class="subtitulo">Experiência</h2>
+    <h2 class="subtitulo pt-br">Experiência</h2>
+    <h2 class="subtitulo en-us">Experience</h2>
     <div>
-      <p class="experiencia-texto">
-        Desenvolvo projetos Front-End utilizando atualmente
+      <p class="experiencia-texto pt-br">
+        Desenvolvendo projetos Front-End utilizando atualmente
+        <strong>HTML</strong>, <strong>CSS</strong> e
+        <strong>JavaScript</strong>.
+      </p>
+      <p class="experiencia-texto en-us">
+        Developing FrontEnd projects with
         <strong>HTML</strong>, <strong>CSS</strong> e
         <strong>JavaScript</strong>.
       </p>
 
-      <div class="empresa">
-        <span class="empresa-ano">2022</span>
-        <h3 class="empresa-titulo">Animais Fantásticos</h3>
-        <span class="empresa-titulo">Projeto Pessoal de Front-End</span>
-        <p class="empresa-texto">
-          Desenvolvi site de apresentação de animais, com a intenção de utilizar elementos do JavaScript afim de treinamento. Projeto final do módulo Javascript Completo ES6+ do curso Origamid.com
+      <div class="experiencia-modulo">
+        <span class="modulo-ano">2022</span>
+        <h3 class="modulo-titulo pt-br">Animais Fantásticos</h3>
+        <h3 class="modulo-titulo en-us">Animais Fantásticos (Fantastic Animals)</h3>
+        <span class="modulo-titulo pt-br">Projeto Pessoal de Front-End</span>
+        <span class="modulo-titulo en-us">Personal Front-End project</span>
+        <p class="modulo-texto pt-br">
+          Desenvolvi site de apresentação de animais, com a intenção de utilizar elementos do JavaScript afim de treinamento. Projeto final do módulo Javascript Completo ES6+ do curso Origamid.com.
         </p>
-        <ul class="empresa-habilidade">
+        <p class="modulo-texto en-us">
+          I developed an animal presentation website, with the intention of using JavaScript elements for training purposes. Final project of the Complete ES6+ Javascript module of the Origamid.com course.
+        </p>
+        <ul class="modulo-habilidade">
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
         </ul>
         <a class="experiencia-link-site" href="https://patrick2m.github.io/animais-fantasticos/" target="_blank">
-          Acesse o site online clicando aqui!
+          <span class="pt-br">Acesse o site online clicando aqui!</span>
+          <span class="en-us">Access the website by clicking here!</span>
         </a>
+        <img src="./img/AnimaisFantasticos.gif" alt="">
       </div>
 
-      <div class="empresa">
-        <span class="empresa-ano">2022</span>
-        <h3 class="empresa-titulo">Bikcraft</h3>
-        <span class="empresa-titulo">Projeto Pessoal de Front-End</span>
-        <p class="empresa-texto">
+      <div class="experiencia-modulo">
+        <span class="modulo-ano">2022</span>
+        <h3 class="modulo-titulo">Bikcraft</h3>
+        <span class="modulo-titulo pt-br">Projeto Pessoal de Front-End</span>
+        <span class="modulo-titulo en-us">Personal Front-End project</span>
+        <p class="modulo-texto pt-br">
           Desenvolvi site de venda de bicicletas fictíceas utilizando apenas HTML,
           CSS e JavaScript básico. Parte do módulo HTML e CSS para iniciantes do curso Origamid.com
         </p>
-        <ul class="empresa-habilidade">
+        <p class="modulo-texto en-us">
+          I developed a website for selling fictitious bicycles using only HTML,
+          Basic CSS and JavaScript. Part of the HTML and CSS module for beginners from the Origamid.com course
+        </p>
+        <ul class="modulo-habilidade">
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
         </ul>
         <a class="experiencia-link-site" href="https://patrick2m.github.io/bikcraft/" target="_blank">
-          Acesse o site online clicando aqui!
+          <span class="pt-br">Acesse o site online clicando aqui!</span>
+          <span class="en-us">Access the website by clicking here!</span>
         </a>
+        <img src="./img/bikcraft.gif" alt="">
       </div>
 
-      <div class="empresa">
-        <span class="empresa-ano">2022</span>
-        <h3 class="empresa-titulo">Casa das Fechaduras de Niterói</h3>
-        <span class="empresa-titulo">Auxilar de TI - Atual</span>
-        <p class="empresa-texto">
+      <div class="experiencia-modulo">
+        <span class="modulo-ano">2022</span>
+        <h3 class="modulo-titulo">Casa das Fechaduras de Niterói</h3>
+        <span class="modulo-titulo pt-br">Auxilar de TI - Atual</span>
+        <span class="modulo-titulo en-us">TI Assistant - Current job</span>
+        <p class="modulo-texto pt-br">
           Auxiliar de suporte em grupo de lojas de ferragens e ferramentas, além de tarefas administrativas em sistema TOTVS. Como projeto pessoal desenvolvi nas horas vagas o site institucional da loja principal.
         </p>
-        <ul class="empresa-habilidade">
+        <p class="modulo-texto en-us">
+          Support assistant in a group os stores, in addition to administrative tasks in the TOTVS system. As a personal project, I developed the institutional website of the main store in my spare time.
+        </p>
+        <ul class="modulo-habilidade">
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
           <li>ReactJs</li>
         </ul>
         <a class="experiencia-link-site" href="https://casadasfechaduras.com.br" target="_blank">
-          Acesse o site online clicando aqui!
+          <span class="pt-br">Acesse o site online clicando aqui!</span>
+          <span class="en-us">Access the website by clicking here!</span>
         </a>
+        <img src="./img/cfn.gif" alt="">
       </div>
 
-      <div class="empresa">
-        <span class="empresa-ano">2021</span>
-        <h3 class="empresa-titulo">Casa das Fechaduras de Niterói</h3>
-        <span class="empresa-titulo">Estagiário de TI</span>
-        <p class="empresa-texto">
+      <div class="experiencia-modulo">
+        <span class="modulo-ano">2021</span>
+        <h3 class="modulo-titulo">Casa das Fechaduras de Niterói</h3>
+        <span class="modulo-titulo pt-br">Estagiário de TI</span>
+        <span class="modulo-titulo en-us">IT Intern</span>
+        <p class="modulo-texto pt-br">
           Auxiliar em grupo de lojas de ferragens e ferramentas, envolvendo manutenção de computadores e infraestrutura local, além de rotinas administrativas em sistema TOTVS.
         </p>
-        <ul class="empresa-habilidade">
+        <p class="modulo-texto en-us">
+          Support assistant in a group os stores, in addition to administrative tasks in the TOTVS system.
+        </p>
+        <ul class="modulo-habilidade">
           <li>Email Marketing</li>
           <li>HTML</li>
           <li>UX Design</li>
@@ -122,26 +165,35 @@
 
   <section class="formacao" id="formacao" aria-label="Formação">
     <div class="formacao-container">
-      <h2 class="subtitulo">Formação</h2>
+      <h2 class="subtitulo pt-br">Formação</h2>
+      <h2 class="subtitulo en-us">Education</h2>
 
       <div>
-        <p class="formacao-texto">
+        <p class="formacao-texto pt-br">
           Minha mais recente experiência acadêmica está sendo a <strong> graduação</strong> 🎓. Além disso me mantenho sempre atualizado com cursos intensivos online.
+        </p>
+        <p class="formacao-texto en-us">
+          My most recent academic experience is being an <strong> undergraduate</strong> 🎓. In addition, I always keep up to date with intensive online courses.
         </p>
 
         <ul class="faculdade-lista">
           <li class="faculdade">
-            <span class="faculdade-tipo">Ensino Médio - 2013</span>
-            <h3 class="faculdade-curso">Ensino Médio intensivo para concurso militar</h3>
+            <span class="faculdade-tipo pt-br">Ensino Médio - 2013</span>
+            <span class="faculdade-tipo en-us">High School - 2013</span>
+            <h3 class="faculdade-curso pt-br">Ensino Médio intensivo para concurso militar</h3>
+            <h3 class="faculdade-curso en-us">Intensive high school for military contest</h3>
             <span class="faculdade-instituicao">Sistema Elite de Ensino</span>
           </li>
           <li class="faculdade">
-            <span class="faculdade-tipo">Superior - 2020 -> 2023</span>
-            <h3 class="faculdade-curso">Sistemas de Computação EAD</h3>
+            <span class="faculdade-tipo pt-br">Superior - 2020 -> 2023</span>
+            <span class="faculdade-tipo en-us">College - 2020 -> 2023</span>
+            <h3 class="faculdade-curso pt-br">Sistemas de Computação EAD</h3>
+            <h3 class="faculdade-curso en-us">Computer Systems Online</h3>
             <span class="faculdade-instituicao">Universidade Federal Fluminense - UFF</span>
           </li>
           <li class="faculdade">
-            <span class="faculdade-tipo">Em Breve</span>
+            <span class="faculdade-tipo pt-br">Em Breve</span>
+            <span class="faculdade-tipo en-us">Soon</span>
             <h3 class="faculdade-curso">...</h3>
             <span class="faculdade-instituicao">_</span>
           </li>
@@ -149,22 +201,37 @@
 
         <div class="formacao-extra">
           <div class="cursos">
-            <h3>Cursos Intensivos</h3>
-            <ul>
+            <h3 class="pt-br">Cursos Intensivos</h3>
+            <h3 class="en-us">Training</h3>
+            <ul class="pt-br">
               <li>Pacote Office Básico <span>Concluído - 10h</span></li>
               <li>WebDesigner <span>Concluído - 20h</span></li>
               <li>Computação Gráfica <span>Concluído - 160h</span></li>
               <li>Introdução a UX/UI Design <span>Concluído - 56h</span></li>
               <li>HTML e CSS para Iniciantes <span>Concluído - 72h</span></li>
-              <li>Javascript Completo ES6 <span>Concluído - 74h</span></li>
+              <li>Javascript Completo ES6+ <span>Concluído - 74h</span></li>
               <li>React Completo <span>Cursando - 36h</span></li>
+            </ul>
+            <ul class="en-us">
+              <li>Basic Office Pack <span>Concluded - 10h</span></li>
+              <li>WebDesigner <span>Concluded - 20h</span></li>
+              <li>CG <span>Concluded - 160h</span></li>
+              <li>Introduction for UX/UI Design <span>Concluded - 56h</span></li>
+              <li>HTML and CSS for startes <span>Concluded - 72h</span></li>
+              <li>Full ES6+ Javascript <span>Concluded - 74h</span></li>
+              <li>React Completo <span>Studying - 36h</span></li>
             </ul>
           </div>
           <div class="idiomas">
-            <h3>Idiomas</h3>
-            <ul>
+            <h3 class="pt-br">Idiomas</h3>
+            <h3 class="en-us">Languages</h3>
+            <ul class="pt-br">
               <li>Inglês <span>/ Avançado</span></li>
               <li>Espanhol <span>/ Básico</span></li>
+            </ul>
+            <ul class="en-us">
+              <li>English <span>/ Advanced</span></li>
+              <li>Espanish <span>/ Basic</span></li>
             </ul>
           </div>
         </div>
@@ -174,9 +241,13 @@
 
   <footer class="footer" id="contato">
     <div class="footer-container">
-      <p class="footer-texto">
+      <p class="footer-texto pt-br">
         Estou disponível para novos projetos no momento. Entre em contato
         comigo e marcamos uma conversa 👋
+      </p>
+      <p class="footer-texto en-us">
+        I am available for new projects at the moment. Contact
+        with me and we set up a conversation 👋
       </p>
       <ul class="footer-contato">
         <li>pmm12@hotmail.com</li>
@@ -192,7 +263,8 @@
           </div>
         </li>
       </ul>
-      <p class="footer-copy">Patrick2m. Direitos reservados.</p>
+      <p class="footer-copy pt-br">Patrick2m. Direitos reservados.</p>
+      <p class="footer-copy en-us">Patrick2m. Rights reserved.</p>
     </div>
   </footer>
   <script type="module" src="./js/script.js"></script>

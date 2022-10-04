@@ -23,6 +23,11 @@
   display: block;
 }
 
+.header-menu-language {
+  display: flex;
+  gap: 1rem;
+}
+
 @media (max-width: 800px) {
   .header {
     flex-direction: column;
