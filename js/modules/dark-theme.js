@@ -13,7 +13,7 @@ export default class DarkTheme {
     this.botaoTema.classList.toggle('iconeTemaEscuro');
   }
 
-  // Função para ativar as funções de acordo com a língua
+  // Função para ativar o tema escuro e trocar o icone do botão
   
   addButtonEvents() {
     this.botaoTema.addEventListener('click', () => {
@@ -24,7 +24,7 @@ export default class DarkTheme {
 
   }
 
-  // Função que faz o código carregar e adiciona a lingaguem português como inicial
+  // Função que faz o código carregar e adiciona o tema claro para o botão como inicial
 
   init() {
     if (this.botaoTema) {
