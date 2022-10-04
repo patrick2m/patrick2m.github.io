@@ -14,6 +14,10 @@
   justify-content: center;
 }
 
+.header-titulo {
+  font-size: 3.5rem;
+}
+
 .header-menu a {
   font-size: 1.125rem;
   line-height: 1.3;
@@ -26,6 +30,7 @@
 .header-menu-language {
   display: flex;
   gap: 1rem;
+  align-items: center;
 }
 
 @media (max-width: 800px) {

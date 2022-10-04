@@ -1,0 +1,29 @@
+.dark-theme {
+  background-color: black;
+  color: white;
+}
+
+.dark-theme h1 {
+  color: #ffffff;
+}
+
+.dark-theme a {
+  color: white;
+}
+
+.dark-theme .experiencia-texto strong {
+  color: white;
+}
+
+.dark-theme .experiencia-modulo {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.dark-theme .modulo-habilidade li {
+  background: #333333;
+}
+
+.dark-theme .modulo-texto {
+  color: #cccccc;
+}

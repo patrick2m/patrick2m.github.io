@@ -31,12 +31,10 @@ export default class LanguageSelect {
     this.ptButton.addEventListener('click', () => {
       this.removeAtivo('.en-us');
       this.adicionaAtivo('.pt-br');
-      console.log('portugues ativado');
     })
     this.enButton.addEventListener('click', () => {
       this.removeAtivo('.pt-br');
       this.adicionaAtivo('.en-us');
-      console.log('Inglês ativado');
     })
   }
 
