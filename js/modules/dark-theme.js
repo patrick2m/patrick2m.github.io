@@ -6,12 +6,20 @@ export default class DarkTheme {
     this.botaoTema = document.getElementById(botaoTema);
   }
 
+  // Função para trocar tema
+
+  trocarTema() {
+    this.botaoTema.classList.toggle('iconeTemaClaro');
+    this.botaoTema.classList.toggle('iconeTemaEscuro');
+  }
+
   // Função para ativar as funções de acordo com a língua
   
   addButtonEvents() {
     this.botaoTema.addEventListener('click', () => {
       const body = document.body
-      body.classList.toggle('dark-theme')
+      body.classList.toggle('dark-theme');
+      this.trocarTema();
     })
 
   }
@@ -21,6 +29,7 @@ export default class DarkTheme {
   init() {
     if (this.botaoTema) {
       this.addButtonEvents();
+      this.botaoTema.classList.add('iconeTemaClaro');
     }
   }
 }
