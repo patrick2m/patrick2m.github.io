@@ -30,6 +30,11 @@
   color: #ffffff;
 }
 
+.wppicon {
+  display: inline-block;
+  padding-left: 10px;
+}
+
 .footer-copy {
   grid-column: 1 / -1;
   font-size: 1.125rem;

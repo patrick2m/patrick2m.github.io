@@ -46,6 +46,16 @@
 }
 
 @media (max-width: 800px) {
+  .header-menu-language .iconeTemaClaro {
+    background: url('../img/lua.png') no-repeat center;
+    width: 40px;
+    height: 40px;
+  }
+  .header-menu-language .iconeTemaEscuro {
+    background: url('../img/sol.png') no-repeat center;
+    width: 40px;
+    height: 40px;
+  }
   .header {
     flex-direction: column;
     gap: 40px;
@@ -55,4 +65,5 @@
     background: #f5f5f5;
     border-radius: 4px;
   }
+
 }

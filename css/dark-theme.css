@@ -27,3 +27,12 @@
 .dark-theme .modulo-texto {
   color: #cccccc;
 }
+
+@media (max-width: 800px) {
+  .dark-theme .header a {
+    color: black;
+  }
+  .dark-theme .experiencia .subtitulo {
+    color: white;
+  }
+}
